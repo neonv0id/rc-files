@@ -7,3 +7,8 @@ let mapleader=" "
 " Leader keybindings
 noremap <Leader>w :wq
 noremap <Leader>q :q!
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+colorscheme torte
